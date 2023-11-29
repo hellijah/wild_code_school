@@ -1,0 +1,10 @@
+  156  rm wilder_tj.csv 
+  157  grep -E "Biarritz.*JavaScript" < wilders.csv > bj.csv
+  158  cat bj.csv 
+  159  ls
+  160  cat bj.csv tj.csv | sort -u
+  161  cat bj.csv tj.csv | sort -u > javascript_biarritz_toulouse.csv
+  162  ls
+  163  cat javascript_biarritz_toulouse.csv 
+  164  man tail
+  165  history | tail -n 10 > history.txt
